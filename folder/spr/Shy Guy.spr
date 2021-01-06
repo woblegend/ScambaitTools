@@ -1,0 +1,40 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Drshnaps",
+                "description": "Ripped by Drshnaps (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/supermariobros2/sheet/6980"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "enemiesandobjects.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "57",  "cropY" : "39", "cropW" : "18", "cropH" : "16",
+        "transparent": "8080FF"
+    },
+
+    "SPRITE_STATE_STAND_LEFT" : { "flipX": "1" },
+
+    "SPRITE_STATE_STAND_RIGHT" : { },
+
+    "SPRITE_STATE_WALK_LEFT" : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "39" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "57" },
+
+    "SPRITE_STATE_WALK_RIGHT" : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "39" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "57" }
+}

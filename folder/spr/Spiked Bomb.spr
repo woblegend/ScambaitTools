@@ -1,0 +1,37 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Dolphman",
+                "description": "Ripped by Dolphman (spriters-resource.com)",
+                "url": "http://spriters-resource.com/snes/tmnt4/sheet/35077"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "death" ],
+        "spawn" :
+        [
+            {
+                "uri": "Explosion.spi",
+                "spawnX": "-18",
+                "spawnY": "-18",
+                "spawnExplode": "1"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "sfx.png",
+        "sizeMultiplier": "1",
+        "frameDelay": "5000",
+        "cropX": "20",  "cropY" : "214", "cropW" : "29", "cropH" : "26",
+        "transparent": "0080FF",
+        "autoClose": "1"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "bioniccommando-nes_spencer_stand.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "100"
+    },
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+    "SPRITE_STATE_WALK_LEFT"    : { "uri": "bioniccommando-nes_spencer_run.gif", "flipX": "1" },
+    "SPRITE_STATE_WALK_RIGHT"    : { "uri": "bioniccommando-nes_spencer_run.gif" }
+}

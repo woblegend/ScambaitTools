@@ -1,0 +1,19 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "ROBnBANKS",
+                "description": "Scripted by ROBnBANKS",
+                "url": "http://razor1980something.wix.com/lets-speak-of-geek"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "buckethead.gif"
+    }
+}

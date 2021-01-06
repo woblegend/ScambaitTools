@@ -1,0 +1,19 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "BOB~n~DISKS",
+                "description": "Scripted by BOB~n~DICKS)",
+                "url": "http://www.razor1980something.wix.com/lets-speak-of-geek"
+            }
+        ],
+        "actions" : [ "walk", "fly" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "snail.gif"
+    }
+}

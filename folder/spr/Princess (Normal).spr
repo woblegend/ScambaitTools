@@ -1,0 +1,47 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Domobot",
+                "description": "Ripped by Domobot (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/supermariobros2/sheet/6979"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector" ],
+        "spawn" :
+        [
+            {
+                "uri": "Princess (Death).spi",
+                "spawnX": "4",
+                "spawnY": "0"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "playablecharacters.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "21",  "cropY" : "196", "cropW" : "17", "cropH" : "32",
+        "transparent": "38BCC7"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { },
+    "SPRITE_STATE_STAND_RIGHT"  : { "flipX": "1" },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "4" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "21" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "4" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "21" }
+}

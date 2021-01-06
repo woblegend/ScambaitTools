@@ -1,0 +1,4 @@
+Extract to the "collection" folder or a sub directory
+after installing the Sprites application.
+
+http://sprites.caustik.com/download/bin/SpritesInstaller.exe

@@ -1,0 +1,44 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Drshnaps",
+                "description": "Ripped by Drshnaps (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/supermariobros2/sheet/6980"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "death" ],
+        "spawn" :
+        [
+            {
+                "uri": "Explosion.spi",
+                "spawnX": "-15",
+                "spawnY": "-17",
+                "spawnExplode": "1"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "enemiesandobjects.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "2",  "cropY" : "897", "cropW" : "18", "cropH" : "16",
+        "transparent": "8080FF",
+        "isChain": "1"
+    },
+    "SPRITE_STATE_DEFAULT_0"  : { "cropX": "2" },
+    "SPRITE_STATE_DEFAULT_1"  : { "cropX": "20" },
+    "SPRITE_STATE_DEFAULT_2"  : { "cropX": "38" },
+    "SPRITE_STATE_DEFAULT_3"  : { "cropX": "56" },
+    "SPRITE_STATE_DEFAULT_4"  : { "cropX": "74" },
+    "SPRITE_STATE_DEFAULT_5"  : { "cropX": "92" },
+    "SPRITE_STATE_DEFAULT_6"  : { "cropX": "110" }
+}

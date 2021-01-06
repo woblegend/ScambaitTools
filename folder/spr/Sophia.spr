@@ -1,0 +1,52 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "WaxPoetic, Goatboy",
+                "description": "Ripped by Domobot (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/blastermaster/sheet/32852"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "jasonsophia.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "0",  "cropY" : "6", "cropW" : "26", "cropH" : "22",
+        "transparent": "0088FF",
+        "fixtures" :
+        [
+            { "x": "0", "y": "2", "w": "26", "h": "18" }
+        ]
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "0" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "40" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "80" },
+    "SPRITE_STATE_WALK_LEFT_3"  : { "cropX": "120" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "0" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "40" },
+    "SPRITE_STATE_WALK_RIGHT_2"  : { "cropX": "80" },
+    "SPRITE_STATE_WALK_RIGHT_3"  : { "cropX": "120" },
+
+    "SPRITE_STATE_JUMP_LEFT" : { "cropX": "160", "flipX": "1" },
+    "SPRITE_STATE_JUMP_RIGHT" : { "cropX": "160" },
+
+    "SPRITE_STATE_DESTROY_LEFT" : { "cropX": "200", "flipX": "1" },
+    "SPRITE_STATE_DESTROY_RIGHT" : { "cropX": "200" }
+}

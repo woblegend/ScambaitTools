@@ -1,0 +1,40 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Goemar",
+                "description": "Ripped by Goemar (The ShyGuy Kingdom)",
+                "url": "http://tsgk.captainn.net/?p=sheetinfo&t=1245"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "wackyraces_various_sheet.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "3",  "cropY" : "3", "cropW" : "17", "cropH" : "25"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1", "cropY" : "43", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "3" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "43" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "83" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1", "cropY" : "43" },
+    "SPRITE_STATE_WALK_RIGHT_0" : { "cropX": "3" },
+    "SPRITE_STATE_WALK_RIGHT_1" : { "cropX": "43" },
+    "SPRITE_STATE_WALK_RIGHT_2" : { "cropX": "83" }
+}

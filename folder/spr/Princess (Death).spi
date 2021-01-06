@@ -1,0 +1,19 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "ROB~n~BANKS",
+                "description": "ROB~n~BANKS",
+                "url": "http://razor1980something.wix.com/lets-speak-of-geek"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "4g3mab_jpg.gif",
+        "frameDelay": "200"
+    }
+}
+

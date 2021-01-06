@@ -1,0 +1,38 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "King Shyguy",
+                "description": "Ripped by King Shyguy (The ShyGuy Kingdom)",
+                "url": "http://tsgk.captainn.net/?p=sheetinfo&t=935"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "bubblebobble_enemies_sheet.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "0",  "cropY" : "210", "cropW" : "18", "cropH" : "18"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "30" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "60" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0" : { "cropX": "30" },
+    "SPRITE_STATE_WALK_RIGHT_1" : { "cropX": "60" }
+}

@@ -1,0 +1,35 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Unknown",
+                "description": "Ripped by Unknown (The ShyGuy Kingdom)",
+                "url": "http://tsgk.captainn.net/?p=sheetinfo&t=1143"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "fly", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "megaman2_enemy_sheet.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "166",  "cropY" : "408", "cropW" : "8", "cropH" : "8"
+    },
+
+    "SPRITE_STATE_FLY_LEFT" : { "isChain": "1" },
+    "SPRITE_STATE_FLY_LEFT_0"  : { "cropX": "166" },
+    "SPRITE_STATE_FLY_LEFT_1"  : { "cropX": "186" },
+
+    "SPRITE_STATE_FLY_RIGHT" : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_FLY_RIGHT_0"  : { "cropX": "166" },
+    "SPRITE_STATE_FLY_RIGHT_1"  : { "cropX": "186" }
+}

@@ -1,0 +1,17 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "BOB-on-DICK",
+                "description": "Scripted by BOB-on-DICK",
+                "url": "http://www.razor1980something.wix.com/lets-speak-of-geek"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "tumblr.gif"
+    }
+}

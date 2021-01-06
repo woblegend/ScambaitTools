@@ -1,0 +1,42 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Badbatman3",
+                "description": "Ripped by Badbatman3 (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/cv2/sheet/8525"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "simonbelmont.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "10",  "cropY" : "6", "cropW" : "16", "cropH" : "30",
+        "transparent": "800000"
+    },
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "10" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "40" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "65" },
+    "SPRITE_STATE_WALK_LEFT_3"  : { "cropX": "40" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "10" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "40" },
+    "SPRITE_STATE_WALK_RIGHT_2"  : { "cropX": "65" },
+    "SPRITE_STATE_WALK_RIGHT_3"  : { "cropX": "40" }
+}

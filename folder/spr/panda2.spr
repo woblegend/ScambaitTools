@@ -1,0 +1,24 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "ROB-N-BANKS",
+                "description": "Scripted by ROB-N-BANKS",
+                "url": "http://razor1980something.wix.com/lets-speak-of-geek"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "Kung-Fu-Panda-Does-Karate-long.gif",
+        "offsX": "16", "offsY": "7"
+    },
+    "SPRITE_STATE_STAND_LEFT"   : { "offsX": "15", "offsY": "7", "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { "offsX": "16", "offsY": "7" },
+    "SPRITE_STATE_WALK_LEFT"    : { "offsX": "0", "offsY": "0", "uri": "Kung-Fu-Panda-Does-Karate-idle.gif" },
+    "SPRITE_STATE_WALK_RIGHT"   : { "offsX": "1", "offsY": "0", "uri": "Kung-Fu-Panda-Does-Karate-shortgif.gif", "flipX": "1" }
+}
