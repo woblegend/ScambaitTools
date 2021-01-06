@@ -1,0 +1,39 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "ROBnBANKS",
+                "description": "Scripted by ROBnBANKS",
+                "url": "http://razor1980something.wix.com/lets-speak-of-geek"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector" ],
+        "spawn" :
+        [
+            {
+                "uri": "014 (Death).spi",
+                "spawnX": "4",
+                "spawnY": "0"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "014.gif",
+        "frameDelay": "200"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { },
+    "SPRITE_STATE_STAND_RIGHT"  : { "flipX": "1" },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "4" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "2" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "4" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "2" }
+}

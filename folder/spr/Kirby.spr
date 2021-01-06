@@ -1,0 +1,41 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Drshnaps",
+                "description": "Ripped by Drshnaps (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/kirbyadv/sheet/2581"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "kirbyandabilities.gif",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "35",  "cropY" : "26", "cropW" : "19", "cropH" : "16",
+        "transparent": "80FFFF"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "73" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "92" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "111" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0" : { "cropX": "73" },
+    "SPRITE_STATE_WALK_RIGHT_1" : { "cropX": "92" },
+    "SPRITE_STATE_WALK_RIGHT_2" : { "cropX": "111" }
+}

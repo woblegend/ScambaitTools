@@ -1,0 +1,24 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "earthworm-standing.gif",
+        "offsX": "16", "offsY": "7"
+    },
+    "SPRITE_STATE_STAND_LEFT"   : { "offsX": "15", "offsY": "7", "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { "offsX": "16", "offsY": "7" },
+    "SPRITE_STATE_WALK_LEFT"    : { "offsX": "0", "offsY": "0", "uri": "earthworm-running.gif" },
+    "SPRITE_STATE_WALK_RIGHT"   : { "offsX": "1", "offsY": "0", "uri": "earthworm-running.gif", "flipX": "1" }
+}

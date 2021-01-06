@@ -1,0 +1,25 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Zeon, Beam Luinsir Yosho",
+                "description": "Ripped by Zeon, Beam Luinsir Yosho (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/supermariobros/sheet/6189"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "generalsprites.gif",
+        "sizeMultiplier": "2",
+        "frameDelay": "200",
+        "cropX": "373",  "cropY" : "142", "cropW" : "16", "cropH" : "16"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Monfriez",
+                "description": "Ripped by Monfriez (spriters-resource.com)",
+                "url": "http://spriters-resource.com/arcade/lemmings/sheet/33005"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector" ],
+        "spawn" :
+        [
+            {
+                "uri": "Lemming (Green) (Death).spi",
+                "spawnX": "-6",
+                "spawnY": "0"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "misc.png",
+        "sizeMultiplier": "3",
+        "frameDelay": "100",
+        "cropX": "184",  "cropY" : "300", "cropW" : "10", "cropH" : "10"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"  : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT" : { },
+
+    "SPRITE_STATE_WALK_LEFT"   : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0" : { "cropX": "4" },
+    "SPRITE_STATE_WALK_LEFT_1" : { "cropX": "24" },
+    "SPRITE_STATE_WALK_LEFT_2" : { "cropX": "44" },
+    "SPRITE_STATE_WALK_LEFT_3" : { "cropX": "64" },
+    "SPRITE_STATE_WALK_LEFT_4" : { "cropX": "84" },
+    "SPRITE_STATE_WALK_LEFT_5" : { "cropX": "104" },
+    "SPRITE_STATE_WALK_LEFT_6" : { "cropX": "124" },
+    "SPRITE_STATE_WALK_LEFT_7" : { "cropX": "144" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0" : { "cropX": "4" },
+    "SPRITE_STATE_WALK_RIGHT_1" : { "cropX": "24" },
+    "SPRITE_STATE_WALK_RIGHT_2" : { "cropX": "44" },
+    "SPRITE_STATE_WALK_RIGHT_3" : { "cropX": "64" },
+    "SPRITE_STATE_WALK_RIGHT_4" : { "cropX": "84" },
+    "SPRITE_STATE_WALK_RIGHT_5" : { "cropX": "104" },
+    "SPRITE_STATE_WALK_RIGHT_6" : { "cropX": "124" },
+    "SPRITE_STATE_WALK_RIGHT_7" : { "cropX": "144" }
+}

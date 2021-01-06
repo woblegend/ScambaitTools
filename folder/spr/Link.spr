@@ -1,0 +1,42 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "BruceJuice",
+                "description": "Ripped by BruceJuice (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/tloztheadventureoflink/sheet/1611"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "link.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "100",
+        "cropX": "69",  "cropY" : "12", "cropW" : "19", "cropH" : "32",
+        "transparent": "52A3A3"
+    },
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "69" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "126" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "107" },
+    "SPRITE_STATE_WALK_LEFT_3"  : { "cropX": "88" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "69" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "126" },
+    "SPRITE_STATE_WALK_RIGHT_2"  : { "cropX": "107" },
+    "SPRITE_STATE_WALK_RIGHT_3"  : { "cropX": "88" }
+}

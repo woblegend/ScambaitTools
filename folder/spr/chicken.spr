@@ -1,0 +1,24 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "Chicken_calm_left.gif",
+        "sizeMultiplier": "2"
+    },
+    "SPRITE_STATE_STAND_LEFT"   : { },
+    "SPRITE_STATE_STAND_RIGHT"  : { "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT"    : { },
+    "SPRITE_STATE_WALK_RIGHT"   : { "flipX": "1" }
+}

@@ -1,0 +1,41 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Fuji Television",
+                "description": "Graphics by Fuji Television",
+                "url": "http://en.wikipedia.org/wiki/ESheep"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "BMP101.BMP",
+        "sizeMultiplier": "1",
+        "frameDelay": "150",
+        "cropX": "240",  "cropY" : "1", "cropW" : "40", "cropH" : "39",
+        "transparent": "0000FF"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { },
+    "SPRITE_STATE_STAND_RIGHT"  : { "flipX": "1" },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "200" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "160" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "200" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "200" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "160" },
+    "SPRITE_STATE_WALK_RIGHT_2"  : { "cropX": "200" }
+}

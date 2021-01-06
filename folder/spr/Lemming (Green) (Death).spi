@@ -1,0 +1,40 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Monfriez",
+                "description": "Ripped by Monfriez (spriters-resource.com)",
+                "url": "http://spriters-resource.com/arcade/lemmings/sheet/33005"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "misc.png",
+        "sizeMultiplier": "3",
+        "frameDelay": "100",
+        "cropX": "0",  "cropY" : "560", "cropW" : "16", "cropH" : "16",
+        "autoClose": "1",
+        "isChain": "1"
+    },
+    "SPRITE_STATE_DEFAULT_0"  : { "cropX" : "0" },
+    "SPRITE_STATE_DEFAULT_1"  : { "cropX" : "20" },
+    "SPRITE_STATE_DEFAULT_2"  : { "cropX" : "40" },
+    "SPRITE_STATE_DEFAULT_3"  : { "cropX" : "60" },
+    "SPRITE_STATE_DEFAULT_4"  : { "cropX" : "80" },
+    "SPRITE_STATE_DEFAULT_5"  : { "cropX" : "100" },
+    "SPRITE_STATE_DEFAULT_6"  : { "cropX" : "120" },
+    "SPRITE_STATE_DEFAULT_7"  : { "cropX" : "140" },
+    "SPRITE_STATE_DEFAULT_8"  : { "cropX" : "160" },
+    "SPRITE_STATE_DEFAULT_9"  : { "cropX" : "180" },
+    "SPRITE_STATE_DEFAULT_10" : { "cropX" : "200" },
+    "SPRITE_STATE_DEFAULT_11" : { "cropX" : "220" },
+    "SPRITE_STATE_DEFAULT_12" : { "cropX" : "240" }
+}

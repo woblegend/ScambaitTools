@@ -1,0 +1,31 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "BruceJuice",
+                "description": "Ripped by BruceJuice (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/tloztheadventureoflink/sheet/1614"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "enemies.png",
+        "sizeMultiplier": "2",
+        "frameDelay": "300",
+        "cropX": "107",  "cropY" : "110", "cropW" : "18", "cropH" : "14",
+        "transparent": "52A3A3",
+        "isChain": "1"
+    },
+    "SPRITE_STATE_DEFAULT_0" : { "cropX": "107" },
+    "SPRITE_STATE_DEFAULT_1" : { "cropX": "124" }
+}

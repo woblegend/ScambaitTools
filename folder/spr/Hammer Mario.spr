@@ -1,0 +1,55 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Drshnaps",
+                "description": "Ripped by Drshnaps (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/supermariobros3/sheet/4230"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ],
+        "actions" : [ "walk", "death" ],
+        "flags" : [ "isCollector", "doFadeOut" ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "mariobros.gif",
+        "sizeMultiplier": "2",
+        "frameDelay": "100",
+        "cropX": "209",  "cropY" : "208", "cropW" : "20", "cropH" : "28",
+        "transparent": "00FFFF"
+    },
+
+    "SPRITE_STATE_STAND_LEFT"   : { "flipX": "1" },
+    "SPRITE_STATE_STAND_RIGHT"  : { },
+
+    "SPRITE_STATE_WALK_LEFT"    : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_WALK_LEFT_0"  : { "cropX": "209" },
+    "SPRITE_STATE_WALK_LEFT_1"  : { "cropX": "227" },
+    "SPRITE_STATE_WALK_LEFT_2"  : { "cropX": "246" },
+    "SPRITE_STATE_WALK_LEFT_3"  : { "cropX": "227" },
+
+    "SPRITE_STATE_WALK_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_WALK_RIGHT_0"  : { "cropX": "209" },
+    "SPRITE_STATE_WALK_RIGHT_1"  : { "cropX": "227" },
+    "SPRITE_STATE_WALK_RIGHT_2"  : { "cropX": "246" },
+    "SPRITE_STATE_WALK_RIGHT_3"  : { "cropX": "227" },
+
+    "SPRITE_STATE_RUN_LEFT"    : { "isChain": "1", "flipX": "1" },
+    "SPRITE_STATE_RUN_LEFT_0"  : { "cropX": "343" },
+    "SPRITE_STATE_RUN_LEFT_1"  : { "cropX": "365" },
+    "SPRITE_STATE_RUN_LEFT_2"  : { "cropX": "387" },
+    "SPRITE_STATE_RUN_LEFT_3"  : { "cropX": "365" },
+
+    "SPRITE_STATE_RUN_RIGHT"   : { "isChain": "1" },
+    "SPRITE_STATE_RUN_RIGHT_0"  : { "cropX": "343" },
+    "SPRITE_STATE_RUN_RIGHT_1"  : { "cropX": "365" },
+    "SPRITE_STATE_RUN_RIGHT_2"  : { "cropX": "387" },
+    "SPRITE_STATE_RUN_RIGHT_3"  : { "cropX": "365" }
+}

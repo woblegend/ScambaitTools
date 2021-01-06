@@ -1,0 +1,25 @@
+{
+    "SPRITE_META_DATA" :
+    {
+        "credits" :
+        [
+            { 
+                "author": "Drshnaps",
+                "description": "Ripped by Drshnaps (spriters-resource.com)",
+                "url": "http://spriters-resource.com/nes/supermariobros2/sheet/6980"
+            },
+            {
+                "author": "Caustik",
+                "description": "Scripted by Caustik (caustik.com)",
+                "url": "http://www.caustik.com/"
+            }
+        ]
+    },
+    "SPRITE_STATE_DEFAULT" : 
+    {
+        "uri": "Boongie.gif",
+        "frameDelay": "200",
+        "autoClose": "1"
+    }
+}
+
