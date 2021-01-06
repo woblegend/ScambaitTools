@@ -1,0 +1,1 @@
+X=Msgbox("Windows cannot find the network path. Verify that the network path is correct and the destination computer is not busy or turned off. If Windows still cannot find the network path, contact your network administrator.",0+16,"ERROR_REM_NOT_LIST")

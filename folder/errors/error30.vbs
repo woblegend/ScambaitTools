@@ -1,0 +1,1 @@
+X=Msgbox("Logmein. Block all outcoming command Errocode:A4ON3D",5+48,"Currupted Support Criticel Warning")

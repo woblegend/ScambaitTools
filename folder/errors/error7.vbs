@@ -1,0 +1,1 @@
+X=Msgbox("This Computer Doesn't have a CUNT control do you want to install it",3+16,"Software Error")

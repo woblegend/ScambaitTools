@@ -1,0 +1,1 @@
+X=Msgbox("A debugger has been found running in your system please, unload it from memory and reload your Flash Driver in the startup Erro Code : 6futfm4d",0+48,"Terminal.exe Debug Flash Driver")
