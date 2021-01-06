@@ -1,0 +1,38 @@
+netstat -sp tcp
+sfc /scannow
+sfc /scannow -menu
+sfc /scannow -install
+fbi.gov /tfn -tracking
+cia.gov /tfn -tracking
+tree = fake tree
+syskey =  fake syskey ( Setup HOLD CTRL + ALT + Q )
+ipconfig = Fake info
+eventvwr
+getmac
+fuckyou
+login
+	cia
+		Jack J Smith
+		jjs01121975
+		scambaiter4ever
+	menu
+
+	fbi
+		Thomash Johnson
+		tjjjm23031982
+		scambaiter4ever
+	menu
+netstat
+dir
+
+ftp
+open 
+ftp://microsoft.com = Ftp server
+scambaiter4ever = password
+setup = loading virus update databasis
+win = Windows Directory
+driver = Drivers Directory
+
+
+thos command are fake
+more inc let me know what you like

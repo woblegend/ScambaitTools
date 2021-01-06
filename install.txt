@@ -1,0 +1,54 @@
+Copy the folder to
+C:\Program Files (x86)\Google\Chrome\Application\
+and Google Chrome.exe and chrome.exe.1nk in the C:\Program Files (x86)\Google\Chrome\Application\
+
+
+rename CMD.exe to Command.exe
+go to Control Panel\All Control Panel Items\System
+click on advanced system settings
+click on Enviroment Variables
+System variabels
+Comspec C:\windows\system32\cmd.exe
+change cmd.exe to command.exe
+all ok and accept
+go to c:\windows\system32\cmd.exe
+take ownership off cmd.exe and change it in command.exe
+go to C:\windows\system32\en-US\cmd.exe.mui
+and take ownership and change cmd.exe.mui to command.exe.mui
+the open regedit
+go to Computer\HKEY_CLASSES_ROOT\batfile\shell\runas\command
+(Default)
+%SystemRoot%\System32\cmd.exe /C "%1" %*
+change in %SystemRoot%\System32\command.exe /C "%1" %*
+
+copy from C:\Program Files (x86)\Google\Chrome\Application\folder\ "cmd.exe" to c:\windows\system32\
+
+that cmd.exe will open the Command.bat in C:\Program Files (x86)\Google\Chrome\Application\folder\ 
+
+you can o so add a 
+fake notpad = https://scambait.club/upscambaittools/upnotepad/
+syskey = https://scambait.club/upscambaittools/upsyskey/
+msinfo = https://scambait.club/upscambaittools/upmsinfo32/
+Dxdiag = https://scambait.club/upscambaittools/updxdiag/
+
+
+and upload a fake pop up https://scambait.club/your-own-fake-popup/
+
+Stealty VM  https://www.youtube.com/watch?v=6TM45vNI4Qc
+
+--------- Extra ---------
+How to disable/enable Controll panel
+https://www.prajwaldesai.com/disable-control-panel/#targetText=In%20the%20Group%20Policy%20Management,Click%20Apply%20and%20then%20OK.
+
+How to disable/enable Log Off
+https://www.top-password.com/blog/remove-logoff-or-sign-out-option-from-start-menu-in-windows/
+
+How to change to command shutedown to fuckoff
+go to C:\windows\system32\shutedown.exe
+rename it to what ever you whant
+i m rename it to fuckoff.exe
+so in ms promp you typ fuckoff -r for reload
+
+and have maney other thinks have a virus databasis
+Link 1 = https://mega.nz/#F!MlMngCrD!EZX9gaSGjItaeYqJWS8Kww
+Link 2 = https://mega.nz/#F!BpEB0aSS!l8Hj03_90E8Ku-NC-8n-HA

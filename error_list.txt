@@ -1,0 +1,171 @@
+if you need info how to make a fake Error.vbs
+Check the link "More info over fake Errors" = https://www.wikihow.com/Make-a-Fake-Error-Message-in-Windows
+and i am have make some  Examble's for .VBS script
+
+
+CTRL 1 = Cannot Find DLL in 'System32', aborting
+CTRL 2 = An error was encountered while processing your request. Please try again (ERROR CODE: 3dgfy1t4) 
+CTRL 3 = C:/DOCUME~1\wob\LOCALS~1\Temp\Nap39Qkz.ai could not be saved, Becouse the Source off the file could not be read. Try again later, or contact the administrator.)
+CTRL 4 = The module 'Sqoras32dll' failed to load Make sure the binary is stoned ad the specified path or debug it to check problems with the binary or dependent .DLL files. The specified module cound not be load from shell32
+CTRL 5 = Untrused IP Connect to Computer
+CTRL 6 = Stick it where the sun dont shine Net_Sendpacket Error Code: 3Dtfm4d
+CTRL 7 = This Computer Doesn't have a cunt control do you want to install it
+CTRL 8 = A debugger has been found running in your system please, unload it from memory and reload your Flash Driver in the startup Erro Code : 6futfm4d
+CTRL 9 = Failed to update
+CTRL 0 = Error connecting to the internet
+
+----------------------------------------------------------------------------------------------------------------
+ALT 1 = Cannot complete proccess
+ALT 2 = Proccess unable to start
+ALT 3 = Unable to start program
+ALT 4 = File is corrupt
+ALT 5 = USB device not recognised
+ALT 6 = Firewall denied access
+ALT 7 = UAC has encounted an error
+ALT 8 = You don't have admin privileges
+ALT 9 = You don't have permission to open this program
+ALT 0 = You don't have permission to view this file
+
+----------------------------------------------------------------------------------------------------------------
+F1 + 1 = Windows cannot open this type of file
+F1 + 2 = File extention is not recognised
+F1 + 3 = Cannot install driver
+F1 + 4 = Unable to find sound card.Check sound card drivers information
+F1 + 5 = Soundcard is not compatible
+F1 + 6 = Graphics card is outdated 
+F1 + 7 = Drive cannot be installed
+F1 + 8 = Your windows is not compatable
+F1 + 9 = Java Runtime Error. An error occured while loading the page. Please try again later.
+F1 + 0 = Logmein Block all outcoming Command errocode: A4ON3D
+
+----------------------------------------------------------------------------------------------------------------
+F2 + 1 = ERROR_INVALID_FUNCTION
+F2 + 2 = ERROR_FILE_NOT_FOUND
+F2 + 3 = ERROR_PATH_NOT_FOUND
+F2 + 4 = ERROR_ARENA_TRASHED
+F2 + 5 = ERROR_ACCESS_DENIED
+F2 + 6 = ERROR_NOT_ENOUGH_MEMORY
+F2 + 7 = ERROR_INVALID_ACCESS
+F2 + 8 = ERROR_INVALID_DATA
+F2 + 9 = ERROR_BAD_COMMAND
+F2 + 0 = ERROR_SEEK
+
+----------------------------------------------------------------------------------------------------------------
+F3 + 1 = ERROR_NOT_DOS_DISK
+F3 + 2 = ERROR_SECTOR_NOT_FOUND
+F3 + 3 = ERROR_WRITE_FAULT
+F3 + 4 = ERROR_SHARING_VIOLATION
+F3 + 5 = ERROR_LOCK_VIOLATION
+F3 + 6 = ERROR_REM_NOT_LIST
+F3 + 7 = ERROR_DUP_NAME
+F3 + 8 = ERROR_BAD_NETPATH
+F3 + 9 = ERROR_NETWORK_BUSY
+F3 + 0 = ERROR_DEV_NOT_EXIST
+
+----------------------------------------------------------------------------------------------------------------
+F4 + 1 = ERROR_TOO_MANY_CMDS
+F4 + 2 = ERROR_BAD_NET_RESP
+F4 + 3 = ERROR_UNEXP_NET_ERR
+F4 + 4 = ERROR_NETNAME_DELETED
+F4 + 5 = ERROR_NETWORK_ACCESS_DENIED
+F4 + 6 = ERROR_BAD_DEV_TYPE
+F4 + 7 = ERROR_REQ_NOT_ACCEP
+F4 + 8 = ERROR_INTERMIXED_KERNEL_EA_OPERATION
+F4 + 9 = ERROR_SCRUB_DATA_DISABLED
+F4 + 0 = ERROR_COMPRESSED_FILE_NOT_SUPPORTED
+
+----------------------------------------------------------------------------------------------------------------
+F5 + 1 = ERROR_NOT_READ_FROM_COPY
+F5 + 2 = ERROR_NOT_PAST_TO_COPY
+F5 + 3 = ERROR_FAIL_SHUTDOWN
+F5 + 4 = ERROR_FAIL_RESTART
+F5 + 5 = ERROR_FAIL_SWITES_USER
+F5 + 6 = ERROR_FAIL_LOGOFF
+F5 + 7 = Create "error67.vbs"
+F5 + 8 = Create "error68.vbs"
+F5 + 9 = Create "error69.vbs"
+F5 + 0 = Create "error70.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F6 + 1 = Create "error71.vbs"
+F6 + 2 = Create "error72.vbs"
+F6 + 3 = Create "error73.vbs"
+F6 + 4 = Create "error74.vbs"
+F6 + 5 = Create "error75.vbs"
+F6 + 6 = Create "error76.vbs"
+F6 + 7 = Create "error77.vbs"
+F6 + 8 = Create "error78.vbs"
+F6 + 9 = Create "error79.vbs"
+F6 + 0 = Create "error80.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F7 + 1 = Create "error81.vbs"
+F7 + 2 = Create "error82.vbs"
+F7 + 3 = Create "error83.vbs"
+F7 + 4 = Create "error84.vbs"
+F7 + 5 = Create "error85.vbs"
+F7 + 6 = Create "error86.vbs"
+F7 + 7 = Create "error87.vbs"
+F7 + 8 = Create "error88.vbs"
+F7 + 9 = Create "error89.vbs"
+F7 + 0 = Create "error90.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F8 + 1 = Create "error91.vbs"
+F8 + 2 = Create "error92.vbs"
+F8 + 3 = Create "error93.vbs"
+F8 + 4 = Create "error94.vbs"
+F8 + 5 = Create "error95.vbs"
+F8 + 6 = Create "error96.vbs"
+F8 + 7 = Create "error97.vbs"
+F8 + 8 = Create "error98.vbs"
+F8 + 9 = Create "error99.vbs"
+F8 + 0 = Create "error100.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F9 + 1 = Create "error101.vbs"
+F9 + 2 = Create "error102.vbs"
+F9 + 3 = Create "error103.vbs"
+F9 + 4 = Create "error104.vbs"
+F9 + 5 = Create "error105.vbs"
+F9 + 6 = Create "error106.vbs"
+F9 + 7 = Create "error107.vbs"
+F9 + 8 = Create "error108.vbs"
+F9 + 9 = Create "error109.vbs"
+F9 + 0 = Create "error110.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F10 + 1 = Create "error111.vbs"
+F10 + 2 = Create "error112.vbs"
+F10 + 3 = Create "error113.vbs"
+F10 + 4 = Create "error114.vbs"
+F10 + 5 = Create "error115.vbs"
+F10 + 6 = Create "error116.vbs"
+F10 + 7 = Create "error117.vbs"
+F10 + 8 = Create "error118.vbs"
+F10 + 9 = Create "error119.vbs"
+F10 + 0 = Create "error120.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F11 + 1 = Create "error121.vbs"
+F11 + 2 = Create "error122.vbs"
+F11 + 3 = Create "error123.vbs"
+F11 + 4 = Create "error124.vbs"
+F11 + 5 = Create "error125.vbs"
+F11 + 6 = Create "error126.vbs"
+F11 + 7 = Create "error127.vbs"
+F11 + 8 = Create "error128.vbs"
+F11 + 9 = Create "error129.vbs"
+F11 + 0 = Create "error130.vbs"
+
+----------------------------------------------------------------------------------------------------------------
+F12 + 1 = Create "error131.vbs"
+F12 + 2 = Create "error132.vbs"
+F12 + 3 = Create "error133.vbs"
+F12 + 4 = Create "error134.vbs"
+F12 + 5 = Create "error135.vbs"
+F12 + 6 = Create "error136.vbs"
+F12 + 7 = Create "error137.vbs"
+F12 + 8 = Create "error138.vbs"
+F12 + 9 = Create "error139.vbs"
+F12 + 0 = Create "error140.vbs"

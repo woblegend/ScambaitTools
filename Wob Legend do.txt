@@ -1,0 +1,81 @@
+install VM 
+install wob bot
+Copy folder to C:\Program Files (x86)\Google\Chrome\Application\
+
+install take ownership
+install spirit
+install bs player (make sure you open the .avi files whit bs player
+install Context Menu Tuner
+
+take ownership off 
+C:\Windows\System32\en-US\cmd.exe.mui (rename to Command.exe.mui
+C:\Windows\System32\cmd.exe (rename to command.exe
+
+copy from C:\Program Files (x86)\Google\Chrome\Application\folder\cmd.exe
+to C:\Windows\System32\
+
+install the best keylogger
+
+install fake CMD
+How to change CMD.exe to Command.exe
+go to Control Panel\All Control Panel Items\System
+click on advanced system settings
+click on Enviroment Variables
+System variabels
+Comspec C:\windows\system32\cmd.exe
+change cmd.exe to command.exe
+all ok and accept
+
+the open regedit
+go to Computer\HKEY_CLASSES_ROOT\batfile\shell\runas\command
+(Default)
+%SystemRoot%\System32\cmd.exe /C "%1" %*
+change in %SystemRoot%\System32\command.exe /C "%1" %*
+
+Remove Shutdown and Restart Buttons In Windows 10
+https://www.howtogeek.com/howto/7553/remove-shutdown-and-restart-buttons-in-windows-7/
+User Configuration \ Administrative Templates \ Start Menu and Taskbar and double click on Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands.
+Computer Configuration \ Administrative Templates \ Start Menu and Taskbar and double click on Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands.
+
+How to disable Open File security warning on Windows 10?
+https://windowsreport.com/open-file-security-warning/
+******************************************************************************
+User Configuration > Administrative Templates > Windows Components > Attachment Manager.
+Do not preserve zone information in file attachments.
+enable 
+******************************************************************************
+Windows Key + S and enter internet options
+Security tab and click on Custom Level 
+ Launching applications and unsafe files and select Enable. Now click OK
+******************************************************************************
+Windows Key + S and enter user. Select Change User Account Control settings
+When User Account Control Settings window appears, move the slider all the way down to Never notify
+******************************************************************************
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+new > key  =    LowRiskFileTypes
+new > String Value =  LowRiskFileTypes
+Value data:
+.avi;.bat;.cmd;.exe;.htm;.html;.lnk;.mpg;.mpeg;.mov;.mp3;.mp4;.mkv;.msi;.m3u;.rar;.reg;.txt;.vbs;.wav;.zip;.7z
+
+How to change to command shutedown to fuckoff
+go to C:\windows\system32\shutedown.exe
+rename it to what ever you whant
+i m rename it to fuckoff.exe
+so in ms promp you typ fuckoff -r for reload
+
+Make VM stealty
+You'll need the following Registry Point:
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum
+****************************************************************
+Search for the following 4 GUIDs:
+hardrive
+{4d36e967-e325-11ce-bfc1-08002be10318}
+videocard
+{4d36e968-e325-11ce-bfc1-08002be10318}
+cd rom
+{4d36e965-e325-11ce-bfc1-08002be10318}
+mous
+{4d36e96f-e325-11ce-bfc1-08002be10318}
+
+
+
