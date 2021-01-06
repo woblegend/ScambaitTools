@@ -1,0 +1,1 @@
+start cmd.exe /c "C:\windows\system32\menu.bat"
