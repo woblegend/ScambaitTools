@@ -1,0 +1,1 @@
+Open us with Notepade   .txt Document or  Words  Wordpad
